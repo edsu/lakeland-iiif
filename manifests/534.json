@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Charles \"Duck\" Russell",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Charles \"Duck\" Russell"
+    },
+    {
+      "label": "description",
+      "value": "Charles \"Duck\" Russell moved to Lakeland in the early 1900s to raise his family. After becoming a widower, he remarried and raised a second family.  Russell worked for the City and Suburban Railway of Washington on the streetcar line which passed through Lakeland. His residence was located on the east side of the railroad tracks in Lakeland.  Russell\u2019s descendants still live in the community. (Courtesy of Magdalene Johnson) "
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/dd654a7d5f14bea7aa05b5226d48696d/full/600,/0/default.jpg",
+          "height": 3392,
+          "width": 2401,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/dd654a7d5f14bea7aa05b5226d48696d/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3392,
+                "width": 2401,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/dd654a7d5f14bea7aa05b5226d48696d",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

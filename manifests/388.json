@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Block 45 Lot 6 5400 Cleveland Avenue",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Block 45 Lot 6 5400 Cleveland Avenue"
+    },
+    {
+      "label": "subject",
+      "value": "The Maryland-National Capital Park and Planning Commission (M-NCPPC)"
+    },
+    {
+      "label": "description",
+      "value": "Edwin A. Newman and Clara Newman originally purchased the property located at 5400 Cleveland Avenue on Block 45-Lot 6.\u00a0 The property was transferred to Enos Newman on November 19, 1894.\u00a0 Seven Years later, in 1901, Enos Newman of Rippen Hanover, Montgomery Pennsylvania, transfers the deed to Bessie Newman.\r\n\r\nIn 1935 the property was \u201ctaken from\u201d Bessie Newman by the County Commissioner. On January 20, 1942, Cuban-born Marcelino Cordove of 1226 Girard Street, NW, Washington, DC, was granted the property.\u00a0 Macelino Cordove, age 55, apparently purchased the property for $12,500.00 (1930 U.S. Census).\u00a0 Marcelino is listed as \u201cHead of Household\u201d and lives with his wife, Mary F. Cordove who is 53 years old.\u00a0 Their two daughters, Terisa, 27, and Evelyn Brown, 35, son Marcell, 25, and grandson Raymond, 14, also lived in the home listed on Girard Street (1930 U.S. Census).\u00a0 So far there is no record that all family members moved to the residence on Cleveland Avenue on the east side of Lakeland.\r\n\r\nAccording to an oral history, sited in the Lakeland Community Heritage Project's book \u201cImages of America Lakeland African Americans in College Park,\u201d the house was used by Marcelino Cordove as a family operated lodging business with modest \u201ctourist homes\u201d located adjacent to the house.\r\n\r\nThe 1930 U.S. Census lists Mr. Cordove and his wife\u2019s race as Negro.\u00a0 However, other documents list his wife as white (1900 U.S. Census).\u00a0 \r\n\r\nOn March 3rd 1951 Marcelino Cordove transferred the deed to his relative Alexander S.C. Stant of 1627 Lamont Street, NW, Washington, D.C. for $10.00.\u00a0 Also on that same day records indicate that the deed was transferred back over to Marcelino Cordove and Alberta C. Cordove. (www.mdlandrec.net)\r\n\r\nIn 1971, records show that Alberta C. Cordove relinquished the deed to Paul Parker, Jr. and Dolores E. Parker, C.W. Blomquist, Trustee, Diane K. Blomquist (Prince George\u2019s County) and the Washington Suburban Sanitary Commission.\u00a0 However, records indicate that on January 15th 1971 Alverta (Cordove) received an inheritance of the property from Marcelino Cordove (d. 10/23/71).\r\n\r\nSix years later on January 25, 1977, Paul Parker, Jr. and Delores E. Parker transferred the property to the City of College Park. The property was subsequently condemned.\r\n\r\nAs of September 20, 1990, Prince George\u2019s County lists the property under the City of College Park, Maryland, Metro Book/Liber Number 7782, Folio 36.\r\n\r\nPlease note the following quoted from Prince George\u2019s County, Maryland record; \u201cI went through all the Grantee records for the County Commissioner hoping to find the deed, which gave them ownership of the property, but I couldn\u2019t find it.\u00a0 It is also not clear to me if the County Commissioner purchased the land or just received it because no one purchased it at auction.\u00a0 ~ Margaret Prest\u201d (www.mdlandrec.net)"
+    },
+    {
+      "label": "creator",
+      "value": "Gregory E. McCampbell"
+    },
+    {
+      "label": "source",
+      "value": "www.pgatlas.com"
+    },
+    {
+      "label": "rights",
+      "value": "Copyright 2003-2008 M-NCPPC - All rights reserved"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/31e318c481c9f17676dd9d1c942d9747/full/300,/0/default.jpg",
+          "height": 544,
+          "width": 300,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/31e318c481c9f17676dd9d1c942d9747/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 544,
+                "width": 300,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/31e318c481c9f17676dd9d1c942d9747",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

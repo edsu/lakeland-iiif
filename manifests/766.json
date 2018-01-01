@@ -1,0 +1,54 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Block 19 Lot 10: Image of House",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Block 19 Lot 10: Image of House"
+    },
+    {
+      "label": "description",
+      "value": "Home of Marie Douglas (Jessie Marie Gillispie) and later Clarence J Douglas"
+    },
+    {
+      "label": "original format",
+      "value": "Photo"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/fa4f002de60521cae3a1f2e8c28eb421/full/792,/0/default.jpg",
+          "height": 1224,
+          "width": 1584,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/fa4f002de60521cae3a1f2e8c28eb421/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1224,
+                "width": 1584,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/fa4f002de60521cae3a1f2e8c28eb421",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

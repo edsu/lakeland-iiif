@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "B12 L10 UR P13 B24 floor plan",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "B12 L10 UR P13 B24 floor plan"
+    },
+    {
+      "label": "description",
+      "value": "B12 L10 UR P13 B24 floor plan done in an appraisal in 1974 for the Pitts family shortly before the property was bought and demolished by the City of College Park for the urban renewal project"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/640bf1d36e27cc850e022c1a68bb9cae/full/576,/0/default.jpg",
+          "height": 489,
+          "width": 576,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/640bf1d36e27cc850e022c1a68bb9cae/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 489,
+                "width": 576,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/640bf1d36e27cc850e022c1a68bb9cae",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

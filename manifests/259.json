@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - Leonard Smith & Mamie Mc Corkle 4910 Navahoe Ave. Block 16 (3)",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - Leonard Smith & Mamie Mc Corkle 4910 Navahoe Ave. Block 16 (3)"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/590dc8f0a57b40dcc541dac2019c0b7d/full/618,/0/default.jpg",
+          "height": 3090,
+          "width": 2472,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/590dc8f0a57b40dcc541dac2019c0b7d/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3090,
+                "width": 2472,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/590dc8f0a57b40dcc541dac2019c0b7d",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

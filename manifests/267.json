@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - 4906 Navahoe (2)",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - 4906 Navahoe (2)"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/b7d136e3bcb7acb1a03f5436a0ed8d3a/full/557,/0/default.jpg",
+          "height": 2628,
+          "width": 2226,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/b7d136e3bcb7acb1a03f5436a0ed8d3a/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2628,
+                "width": 2226,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/b7d136e3bcb7acb1a03f5436a0ed8d3a",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Aerial Map of Lake Artemesia",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Aerial Map of Lake Artemesia"
+    },
+    {
+      "label": "description",
+      "value": "At the heart of this community is a 15-foot deep lake called \u201cLake Artemesia,\u201d named after Edwin A. Newman\u2019s wife.  It is an interesting triangular shape that can be recognized from original aerial photographs or any maps from Prince George's County, Maryland."
+    },
+    {
+      "label": "creator",
+      "value": "PGAtlas"
+    },
+    {
+      "label": "contributor",
+      "value": "Gregory McCampbell"
+    },
+    {
+      "label": "online submission",
+      "value": "Yes"
+    },
+    {
+      "label": "posting consent",
+      "value": "Yes"
+    },
+    {
+      "label": "submission consent",
+      "value": "Yes"
+    },
+    {
+      "label": "contributor is creator",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/e56f11040c7ce115da5f49ad23009a09/full/408,/0/default.jpg",
+          "height": 1056,
+          "width": 816,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/e56f11040c7ce115da5f49ad23009a09/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1056,
+                "width": 816,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/e56f11040c7ce115da5f49ad23009a09",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

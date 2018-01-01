@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Lakeland Tavern interior building plan, John J. Shank Appraisal, 1975",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Lakeland Tavern interior building plan, John J. Shank Appraisal, 1975"
+    },
+    {
+      "label": "subject",
+      "value": "Lakeland Tavern"
+    },
+    {
+      "label": "description",
+      "value": "Lakeland Tavern interior building plan, John J. Shank Appraisal, 1975"
+    },
+    {
+      "label": "creator",
+      "value": "John J. Shank, MIA"
+    },
+    {
+      "label": "source",
+      "value": "City of College Park"
+    },
+    {
+      "label": "date",
+      "value": "1978-05-28"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/a33f518893b6384e0c90cdcb9dd1bead/full/601,/0/default.jpg",
+          "height": 700,
+          "width": 601,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/a33f518893b6384e0c90cdcb9dd1bead/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 700,
+                "width": 601,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/a33f518893b6384e0c90cdcb9dd1bead",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

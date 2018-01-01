@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "First Baptist Church fund-raising pageant 1970",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "First Baptist Church fund-raising pageant 1970"
+    },
+    {
+      "label": "description",
+      "value": "First Baptist Church of College Park crowned Gwen Williams Miss First Baptist during a fund-raising pageant held at the church in the summer of 1970. Williams won by raising more money for the church than the other competitors. The Young People's Volunteer Choir provided music for the evening.  (Courtesy of Thelma Lomax)"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/b7961e37f7c3f7d3ca50e5e995803ad3/full/600,/0/default.jpg",
+          "height": 2366,
+          "width": 2401,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/b7961e37f7c3f7d3ca50e5e995803ad3/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2366,
+                "width": 2401,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/b7961e37f7c3f7d3ca50e5e995803ad3",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

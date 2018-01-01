@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - Paul & Delores Parker 5400 Cleveland Ave.(2)",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - Paul & Delores Parker 5400 Cleveland Ave.(2)"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/103fcbfc3b71bb1e6d752f16d5a1b67f/full/609,/0/default.jpg",
+          "height": 3240,
+          "width": 2436,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/103fcbfc3b71bb1e6d752f16d5a1b67f/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3240,
+                "width": 2436,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/103fcbfc3b71bb1e6d752f16d5a1b67f",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

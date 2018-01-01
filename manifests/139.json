@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - relocation list since 1973 dated 3/20/81 p4",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - relocation list since 1973 dated 3/20/81 p4"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/443197d9bdda836006ad76ece8270916/full/638,/0/default.jpg",
+          "height": 1755,
+          "width": 1275,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/443197d9bdda836006ad76ece8270916/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1755,
+                "width": 1275,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/443197d9bdda836006ad76ece8270916",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - Mayor Lomax , Gladys Sprllman (signing) May 27?",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - Mayor Lomax , Gladys Sprllman (signing) May 27?"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/d04b8ca0d5be234efc221c86ce6d77a0/full/779,/0/default.jpg",
+          "height": 2483,
+          "width": 3114,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/d04b8ca0d5be234efc221c86ce6d77a0/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2483,
+                "width": 3114,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/d04b8ca0d5be234efc221c86ce6d77a0",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

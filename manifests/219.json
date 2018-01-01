@@ -1,0 +1,94 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "City of College Park - William and Beatrice Thomas 4806 Lakeland Rd. ",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "City of College Park - William and Beatrice Thomas 4806 Lakeland Rd. "
+    },
+    {
+      "label": "subject",
+      "value": "Urban renewal property appraisal"
+    },
+    {
+      "label": "description",
+      "value": "This is the summary sheet of a property appraisal for the land and home owned by William and Beatrice Thomas at 4806 Lakeland Road.  The appraisal was generated during the urban renewal process to establish the amount the government offered the property owner as compensation for the \"taking\" of their home."
+    },
+    {
+      "label": "source",
+      "value": "City of College Park, Public Works Department, Zoning files"
+    },
+    {
+      "label": "publisher",
+      "value": "City of College Park"
+    },
+    {
+      "label": "date",
+      "value": "c. 1970"
+    },
+    {
+      "label": "contributor",
+      "value": "wilmer"
+    },
+    {
+      "label": "format",
+      "value": "image/jpeg, 8 1/2 x 11 originally"
+    },
+    {
+      "label": "language",
+      "value": "English"
+    },
+    {
+      "label": "identifier",
+      "value": "Property appraisal record for urban renewal"
+    },
+    {
+      "label": "original format",
+      "value": "single sheet of paper containing photograph of property plus summary appraisal information"
+    },
+    {
+      "label": "physical dimensions",
+      "value": "8 1/2 x 11 sheet of paper."
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/638,/0/default.jpg",
+          "height": 1755,
+          "width": 1275,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1755,
+                "width": 1275,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

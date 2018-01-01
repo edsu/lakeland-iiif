@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Townhome Development, 1983",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Townhome Development, 1983"
+    },
+    {
+      "label": "subject",
+      "value": "Urban Renewal"
+    },
+    {
+      "label": "description",
+      "value": "Construction began on the Alden-Berkley townhomes in 1983. "
+    },
+    {
+      "label": "creator",
+      "value": "City of College Park"
+    },
+    {
+      "label": "source",
+      "value": "Lakeland: African Americans in College Park"
+    },
+    {
+      "label": "publisher",
+      "value": "Arcadia Publishing"
+    },
+    {
+      "label": "date",
+      "value": "2009"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/2ebbd32d9fb5ebf66919b2418da1713a/full/690,/0/default.jpg",
+          "height": 451,
+          "width": 690,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/2ebbd32d9fb5ebf66919b2418da1713a/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 451,
+                "width": 690,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/2ebbd32d9fb5ebf66919b2418da1713a",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Sfc. Harry M. Braxton Jr. and S.Sgt. Loretta Ann Braxton prior to deployment",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Sfc. Harry M. Braxton Jr. and S.Sgt. Loretta Ann Braxton prior to deployment"
+    },
+    {
+      "label": "description",
+      "value": "Sfc. Harry M. Braxton Jr. grew up in Lakeland. After attending Bowie State College in Maryland, he enlisted in the U.S. Army and completed a career-spanning 22 years. Braxton served in Iraq during the Persian Gulf War, where his contributions earned him a Bronze State Medal for \"exceptional meritorious service.\" After the end of his career, Braxton was award the Meritorious Service Medal. In this 1990 photograph, Braxton appears with his wife, S.Sgt. Loretta Ann Braxton, just months before their wartime development to Iraq. "
+    },
+    {
+      "label": "source",
+      "value": "Lakeland Community Heritage Project, Inc., Lakeland: African Americans in College Park (Charleston, SC: Arcadia Pub., 2009), 74."
+    },
+    {
+      "label": "date",
+      "value": "1990"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/c24038ee965cd2d5a058102b95754698/full/750,/0/default.jpg",
+          "height": 882,
+          "width": 1500,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/c24038ee965cd2d5a058102b95754698/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 882,
+                "width": 1500,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/c24038ee965cd2d5a058102b95754698",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

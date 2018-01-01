@@ -1,0 +1,101 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Leonard Smith Elected to College Park City Council, 1965",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Leonard Smith Elected to College Park City Council, 1965"
+    },
+    {
+      "label": "subject",
+      "value": "Leonard Smith"
+    },
+    {
+      "label": "description",
+      "value": "Leonard Smith was elected to the College Park City Council in 1965. This photo shows outgoing councilman Dervey Lomax, second from right, affixing Smith's council pin. He served on the City Council until 1967. "
+    },
+    {
+      "label": "source",
+      "value": "Lakeland: African Americans in College Park"
+    },
+    {
+      "label": "publisher",
+      "value": "Arcadia Publishing, Charleston, SC"
+    },
+    {
+      "label": "date",
+      "value": "2009"
+    },
+    {
+      "label": "contributor",
+      "value": "Thelma Lomax"
+    },
+    {
+      "label": "language",
+      "value": "English"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e/full/277,/0/default.jpg",
+          "height": 355,
+          "width": 277,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 355,
+                "width": 277,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        },
+        {
+          "@id": "http://localhost:8000/canvas/page-2.json",
+          "@type": "sc:Canvas",
+          "label": "Page 2",
+          "thumbnail": "http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/780,/0/default.jpg",
+          "height": 443,
+          "width": 780,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 443,
+                "width": 780,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

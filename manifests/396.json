@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Block 35, Lots 9-11",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Block 35, Lots 9-11"
+    },
+    {
+      "label": "creator",
+      "value": "Anna Bruton"
+    },
+    {
+      "label": "publisher",
+      "value": "Prince George's County Government"
+    },
+    {
+      "label": "contributor",
+      "value": "Anna Bruton"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/c94a924eafd7750c5c8a9ef56dc7c89e/full/960,/0/default.jpg",
+          "height": 720,
+          "width": 960,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/c94a924eafd7750c5c8a9ef56dc7c89e/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 720,
+                "width": 960,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/c94a924eafd7750c5c8a9ef56dc7c89e",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

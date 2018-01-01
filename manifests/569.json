@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Embry AME Church dinner 1962",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Embry AME Church dinner 1962"
+    },
+    {
+      "label": "description",
+      "value": "The churches of Lakeland have always been the true soul of the community. Gathering for dinner on the lawn of Embry AME Church has long been a summer tradition in Lakeland. In this 1962 photograph, William Sharps is shown wearing chef\u2019s whites preparing the day's meal. Seated in the foreground is Dora Robinson (third from the right) along with some friends, including Jacob Johnson, wearing the hat. (Courtesy of the Gross family)"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/a0cbcd123f6dc98157911cb731630e08/full/516,/0/default.jpg",
+          "height": 765,
+          "width": 1032,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/a0cbcd123f6dc98157911cb731630e08/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 765,
+                "width": 1032,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/a0cbcd123f6dc98157911cb731630e08",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

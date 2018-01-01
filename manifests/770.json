@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "4805 Navahoe Street, Block 12, Lot 6",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "4805 Navahoe Street, Block 12, Lot 6"
+    },
+    {
+      "label": "subject",
+      "value": "Introduction to Owners of Property"
+    },
+    {
+      "label": "description",
+      "value": "This is an introduction to the owners"
+    },
+    {
+      "label": "creator",
+      "value": "Bazar, Nancy S."
+    },
+    {
+      "label": "contributor",
+      "value": "bazar, Nancy S."
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/850508087a26d33f898fe8553fcc5866/full/960,/0/default.jpg",
+          "height": 720,
+          "width": 960,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/850508087a26d33f898fe8553fcc5866/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 720,
+                "width": 960,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/850508087a26d33f898fe8553fcc5866",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

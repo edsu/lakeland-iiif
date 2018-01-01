@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Pitts new home on 5104 Pierce Avenue",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Pitts new home on 5104 Pierce Avenue"
+    },
+    {
+      "label": "description",
+      "value": "Picture of the home that the Pitts's built at 5104 Pierce Avenue with the money that they received as compensation for their home on Lakeland Road during the urban renewal project"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/efeed4b3ffcd15942abe65473d99a95d/full/600,/0/default.jpg",
+          "height": 338,
+          "width": 600,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/efeed4b3ffcd15942abe65473d99a95d/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 338,
+                "width": 600,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/efeed4b3ffcd15942abe65473d99a95d",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "4905 Navahoe Street, Lakeland Tavern - Fredric B. Lauterbach Appraisal Photo",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "4905 Navahoe Street, Lakeland Tavern - Fredric B. Lauterbach Appraisal Photo"
+    },
+    {
+      "label": "subject",
+      "value": "Lakeland Tavern"
+    },
+    {
+      "label": "description",
+      "value": "cir. 1968 photo of Lakeland Tavern taken by Fredric B. Lauterbach, SRA for urban renewal property appraisal. Located at 4905 Navahoe Street, Block 12 Lot 2. Owner at time of appraisal: Leonard Smith; owned since December 23, 1966. "
+    },
+    {
+      "label": "creator",
+      "value": "Fredric B. Lauterbach, SRA"
+    },
+    {
+      "label": "source",
+      "value": "City of College Park"
+    },
+    {
+      "label": "language",
+      "value": "English"
+    },
+    {
+      "label": "type",
+      "value": "Photo"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/98fa4eeea7e73c54bb971d2b63550545/full/575,/0/default.jpg",
+          "height": 373,
+          "width": 575,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/98fa4eeea7e73c54bb971d2b63550545/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 373,
+                "width": 575,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/98fa4eeea7e73c54bb971d2b63550545",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

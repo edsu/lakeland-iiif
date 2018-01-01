@@ -1,0 +1,54 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Members of the Lakeland community being honored for their civic affairs",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Members of the Lakeland community being honored for their civic affairs"
+    },
+    {
+      "label": "source",
+      "value": "Lakeland Community Heritage Project, Inc., Lakeland: African Americans in College Park (Charleston, SC: Arcadia Pub., 2009), 76."
+    },
+    {
+      "label": "date",
+      "value": "1969"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/a0f5c7ab29f01b625678b490b39c784f/full/812,/0/default.jpg",
+          "height": 988,
+          "width": 1624,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/a0f5c7ab29f01b625678b490b39c784f/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 988,
+                "width": 1624,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/a0f5c7ab29f01b625678b490b39c784f",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

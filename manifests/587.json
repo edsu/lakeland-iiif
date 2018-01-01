@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Embry AME Church building, around 1965",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Embry AME Church building, around 1965"
+    },
+    {
+      "label": "description",
+      "value": "Embry AME Church was founded in 1903 in the home of Samuel and Georgianna Stewart. The congregation built a chapel in 1905 in a low-lying section of the community. In 1918, the building was moved to a site on Lakeland Road.  In 1920, a new church on the same location replaced the chapel. Over time, a parish hall and study were added. The building is showed here around 1965.   (Courtesy of Thelma Lomax) "
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/a2eadb76f47fda8cd2cbeb3479552b9e/full/600,/0/default.jpg",
+          "height": 1731,
+          "width": 2401,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/a2eadb76f47fda8cd2cbeb3479552b9e/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 1731,
+                "width": 2401,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/a2eadb76f47fda8cd2cbeb3479552b9e",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

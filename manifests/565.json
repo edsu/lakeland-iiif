@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Lakeland Elementary School 1926",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Lakeland Elementary School 1926"
+    },
+    {
+      "label": "description",
+      "value": "Built in 1926 as Lakeland Elementary School, this building in 1958 became home to Little New Zion Fire Baptized Holiness Church of God of the Americas. A portion of the building contained an apartment, where the family of James and Anna Smith lived for years. Both the family and congregation were displaced with the coming of urban renewal. The congregation, now Greater New Zion Fire Baptized Holiness Church of God of the Americas, is located in West Lanham, Maryland. (Courtesy of Thelma Lomax)"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/d760f5e7b2a2cadc653d7c780e0fe1fb/full/699,/0/default.jpg",
+          "height": 931,
+          "width": 1397,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/d760f5e7b2a2cadc653d7c780e0fe1fb/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 931,
+                "width": 1397,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/d760f5e7b2a2cadc653d7c780e0fe1fb",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

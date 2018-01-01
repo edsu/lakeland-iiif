@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="css/mirador-combined.min.css">
+    <title>Mirador Viewer</title>
+    <link rel="stylesheet" href="/css/mirador-combined.min.css">
+    <style type="text/css">
+     #viewer {
+       width: 100%;
+       height: 100%;
+       position: fixed;
+     }
+    </style>
+  </head>
+  <body>
+    <div id="viewer"></div>
+
+    <script src="mirador.min.js"></script>
+    <script type="text/javascript">
+
+     $(function() {
+       $.getJSON("manifests/index.json", function(data) {
+         myMiradorInstance = Mirador({
+           "id": "viewer",
+           "layout": "1x1",
+           "buildPath": "",
+           "data": data,
+           "annotationEndpoint": { 
+             "name":"Local Storage",
+             "module": "LocalStorageEndpoint"
+           }
+        })
+      })
+    })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Lola Giles holding Violetta Sharps on front porch of Sharps home, Block 34, Lot 6, 1949",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Lola Giles holding Violetta Sharps on front porch of Sharps home, Block 34, Lot 6, 1949"
+    },
+    {
+      "label": "creator",
+      "value": "Lauren Schiszik"
+    },
+    {
+      "label": "contributor",
+      "value": "Violetta Sharps Jones"
+    },
+    {
+      "label": "online submission",
+      "value": "No"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/2cc871f6dd3dd02b6f082c5b0b5dc6ce/full/432,/0/default.jpg",
+          "height": 759,
+          "width": 432,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/2cc871f6dd3dd02b6f082c5b0b5dc6ce/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 759,
+                "width": 432,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/2cc871f6dd3dd02b6f082c5b0b5dc6ce",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

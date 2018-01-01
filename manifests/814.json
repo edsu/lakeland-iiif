@@ -1,0 +1,62 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:8000/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Dorothy Stewart and Sarah Jackson, Lakeland Tavern, 1955",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Dorothy Stewart and Sarah Jackson, Lakeland Tavern, 1955"
+    },
+    {
+      "label": "subject",
+      "value": "Four Brothers Tavern"
+    },
+    {
+      "label": "description",
+      "value": "Dorothy Stewart (left), daughter of Nellie Stewart owner of Stewart's Tavern/Four Brothers Tavern is shown here with her cousin Sarah Jackson around 1955. (photo courtesy of Leonard Smith). "
+    },
+    {
+      "label": "source",
+      "value": "Lakeland: African American's in College Park; Acadia Publishing "
+    },
+    {
+      "label": "date",
+      "value": "2009"
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@type": "sc:Canvas",
+          "label": "Page 1",
+          "thumbnail": "http://localhost:8000//images/tiles/124c041f17ed1c4a852047885efbf267/full/824,/0/default.jpg",
+          "height": 497,
+          "width": 824,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/http://localhost:8000//images/tiles/124c041f17ed1c4a852047885efbf267/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 497,
+                "width": 824,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:8000//images/tiles/124c041f17ed1c4a852047885efbf267",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                }
+              },
+              "on": "http://localhost:8000/canvas/page-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
