@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "City of College Park - Black's 5001-5007 Lakeland Rd. (3) store + 5 apts rent was $68.50 landlord paid water.",
   "metadata": [
@@ -34,10 +34,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee/full/638,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee/full/638,/0/default.jpg",
           "height": 1755,
           "width": 1275,
           "images": [
@@ -45,18 +45,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1755,
                 "width": 1275,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/5a15ee0533965a19cd4dfabdaeae40ee",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

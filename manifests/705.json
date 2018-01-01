@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "4810 Lakeland Road, Second Floor",
   "metadata": [
@@ -18,10 +18,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/4aa618a3844713ee2888a880bf77e9b0/full/628,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/4aa618a3844713ee2888a880bf77e9b0/full/628,/0/default.jpg",
           "height": 402,
           "width": 628,
           "images": [
@@ -29,18 +29,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/4aa618a3844713ee2888a880bf77e9b0/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/4aa618a3844713ee2888a880bf77e9b0/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 402,
                 "width": 628,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/4aa618a3844713ee2888a880bf77e9b0",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/4aa618a3844713ee2888a880bf77e9b0",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

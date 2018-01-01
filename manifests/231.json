@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "City of College Park - Carl Cager, Florence Hall &James Hall 5402 Cleveland Ave. (2)",
   "metadata": [
@@ -30,10 +30,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6/full/624,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6/full/624,/0/default.jpg",
           "height": 3450,
           "width": 2496,
           "images": [
@@ -41,18 +41,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3450,
                 "width": 2496,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/cf53a33b7358769d7e7a1b7d43b9d5f6",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

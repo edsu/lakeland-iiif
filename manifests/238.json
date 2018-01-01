@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "City of College Park - Walter & Mildred Lassick 8111 54th Ave. (2)",
   "metadata": [
@@ -30,10 +30,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/0a97b8300c1a0161652530e9e62f2463/full/606,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/0a97b8300c1a0161652530e9e62f2463/full/606,/0/default.jpg",
           "height": 3240,
           "width": 2424,
           "images": [
@@ -41,18 +41,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/0a97b8300c1a0161652530e9e62f2463/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/0a97b8300c1a0161652530e9e62f2463/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3240,
                 "width": 2424,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/0a97b8300c1a0161652530e9e62f2463",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/0a97b8300c1a0161652530e9e62f2463",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

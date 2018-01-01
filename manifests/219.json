@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "City of College Park - William and Beatrice Thomas 4806 Lakeland Rd. ",
   "metadata": [
@@ -62,10 +62,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/638,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/638,/0/default.jpg",
           "height": 1755,
           "width": 1275,
           "images": [
@@ -73,18 +73,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/ff967a1545a899f125ae0ec9234a06a9/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1755,
                 "width": 1275,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/ff967a1545a899f125ae0ec9234a06a9",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/ff967a1545a899f125ae0ec9234a06a9",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

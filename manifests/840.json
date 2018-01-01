@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "Block 19 Lot 10 Current State",
   "metadata": [
@@ -14,10 +14,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/da08180bb8654ab2572168ab852a21ae/full/700,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/da08180bb8654ab2572168ab852a21ae/full/700,/0/default.jpg",
           "height": 578,
           "width": 700,
           "images": [
@@ -25,18 +25,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/da08180bb8654ab2572168ab852a21ae/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/da08180bb8654ab2572168ab852a21ae/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 578,
                 "width": 700,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/da08180bb8654ab2572168ab852a21ae",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/da08180bb8654ab2572168ab852a21ae",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

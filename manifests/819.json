@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "Leonard Smith Elected to College Park City Council, 1965",
   "metadata": [
@@ -42,10 +42,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e/full/277,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/84808540e6883989c17a008dccba2a5e/full/277,/0/default.jpg",
           "height": 355,
           "width": 277,
           "images": [
@@ -53,26 +53,26 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/84808540e6883989c17a008dccba2a5e/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 355,
                 "width": 277,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/84808540e6883989c17a008dccba2a5e",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/84808540e6883989c17a008dccba2a5e",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         },
         {
-          "@id": "http://localhost:8000/canvas/page-2.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-2.json",
           "@type": "sc:Canvas",
           "label": "Page 2",
-          "thumbnail": "http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/780,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/780,/0/default.jpg",
           "height": 443,
           "width": 780,
           "images": [
@@ -80,18 +80,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 443,
                 "width": 780,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/85daf5312559d7e7a3a653a7c7dae6cc",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-2.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-2.json"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "Damage to the Braxton house after two youth fired 44 bullets into the house",
   "metadata": [
@@ -22,10 +22,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d/full/770,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d/full/770,/0/default.jpg",
           "height": 976,
           "width": 1540,
           "images": [
@@ -33,18 +33,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 976,
                 "width": 1540,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/7b0dbf8e31bf2ffbaeda327e2df9ae8d",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }

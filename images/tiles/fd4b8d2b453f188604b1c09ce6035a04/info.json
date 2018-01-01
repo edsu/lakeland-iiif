@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "http://localhost:8000//images/tiles/fd4b8d2b453f188604b1c09ce6035a04",
+  "@id": "https://edsu.github.io/lakeland-images//images/tiles/fd4b8d2b453f188604b1c09ce6035a04",
   "height": 1094,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",

@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://localhost:8000/manifest.json",
+  "@id": "https://edsu.github.io/lakeland-images/manifest.json",
   "@type": "sc:Manifest",
   "label": "City of College Park - Lake Artemesia after redelopement (5)",
   "metadata": [
@@ -30,10 +30,10 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "http://localhost:8000/canvas/page-1.json",
+          "@id": "https://edsu.github.io/lakeland-images/canvas/page-1.json",
           "@type": "sc:Canvas",
           "label": "Page 1",
-          "thumbnail": "http://localhost:8000//images/tiles/174495e55a927f3da7fdb48f64811d62/full/621,/0/default.jpg",
+          "thumbnail": "https://edsu.github.io/lakeland-images//images/tiles/174495e55a927f3da7fdb48f64811d62/full/621,/0/default.jpg",
           "height": 3114,
           "width": 2483,
           "images": [
@@ -41,18 +41,18 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "/http://localhost:8000//images/tiles/174495e55a927f3da7fdb48f64811d62/full/full/0/default.jpg",
+                "@id": "/https://edsu.github.io/lakeland-images//images/tiles/174495e55a927f3da7fdb48f64811d62/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 3114,
                 "width": 2483,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "http://localhost:8000//images/tiles/174495e55a927f3da7fdb48f64811d62",
+                  "@id": "https://edsu.github.io/lakeland-images//images/tiles/174495e55a927f3da7fdb48f64811d62",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "http://localhost:8000/canvas/page-1.json"
+              "on": "https://edsu.github.io/lakeland-images/canvas/page-1.json"
             }
           ]
         }
